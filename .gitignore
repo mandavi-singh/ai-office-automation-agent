@@ -1,0 +1,61 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# App outputs
+output/
+ai_agent/output/
+ai_agent_app/output/
+__TEMP__/
+__ACTIVE__
+ai_agent_app/__ACTIVE__
+
+# Generated Office and export files
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+*.txt
+
+# OCR and extracted assets
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.gif
+*.webp
+
+# Playwright / browser temp data
+playwright-report/
+test-results/

@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+*.log
+
+# Generated outputs
+output/
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+*.txt
+*.png
+*.jpg
+*.jpeg
